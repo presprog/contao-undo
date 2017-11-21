@@ -1,0 +1,11 @@
+{
+    "name": "presprog/contao-undo",
+    "type": "contao-bundle",
+    "authors": [
+        {
+            "name": "Benedict Zinke",
+            "email": "bz@presentprogressive.de"
+        }
+    ],
+    "require": {}
+}
