@@ -1,11 +1,27 @@
 {
     "name": "presprog/contao-undo",
     "type": "contao-bundle",
+    "description": "Improves the Contao restore option in the backend by providing more semantic information regarding the deleted elements.",
+    "license": "LGPL-3.0+",
     "authors": [
         {
             "name": "Benedict Zinke",
             "email": "bz@presentprogressive.de"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "conflict": {
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PresProg\\Undo\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "PresProg\\Undo\\ContaoManager\\Plugin"
+    }
 }
