@@ -5,3 +5,11 @@ This extension improves the restore section of Contao by providing more semantic
 We see this extension solely as a research tool. As soon we come up with a solid solution, we aim for a PR to the Contao core.
 
 *Any help or feedback is very much welcome*
+
+## Installation
+
+Install the bundle via Composer:
+
+```
+composer require presprog/contao-undo
+```
