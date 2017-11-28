@@ -6,6 +6,8 @@ We see this extension solely as a research tool. As soon we come up with a solid
 
 *Any help or feedback is very much welcome*
 
+![Screenshot of the improved restore section](contao-undo-screenshot.jpg?raw=true)
+
 ## Installation
 
 Install the bundle via Composer:
