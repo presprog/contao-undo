@@ -9,7 +9,9 @@
             "email": "bz@presentprogressive.de"
         }
     ],
-    "require": {},
+    "require": {
+      "contao/core-bundle": "^4.4"
+    },
     "require-dev": {
         "contao/manager-plugin": "^2.0"
     },
